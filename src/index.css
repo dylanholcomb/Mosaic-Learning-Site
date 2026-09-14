@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Montserrat', sans-serif;
+  --font-sans: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-teal-brand: #00AECC;
+  --color-teal-hover: #0099B3;
+  --color-teal-dark: #166960;
+  --color-teal-light: #E6F7FA;
+  --color-green-brand: #46B959;
+  --color-green-dark: #007A3D;
+  --color-green-light: #82CF8F;
+  --color-sky-brand: #A3D5E4;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #22262A;
+}
